@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "soccer-bets"
+version = "0.1.0"
+description = ""
+authors = ["Igor Deo Alves <igor.alves@mcsmarkup.com.br>"]
+readme = "README.md"
+packages = [{include = "soccer_bets"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+scrapy = "^2.8.0"
+pandas = "^2.0.0"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
